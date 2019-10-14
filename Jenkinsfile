@@ -168,10 +168,10 @@ pipeline {
               export SUBSTRA_PATH=/tmp/substra/
               cd ./docker && python3 start.py -d --no-backup
               sleep 120
-              echo \$MY_HOST_IP substrabac.owkin.com >> /etc/hosts
-              echo \$MY_HOST_IP substrafront.owkin.com >> /etc/hosts
-              echo \$MY_HOST_IP substrabac.chunantes.com >> /etc/hosts
-              echo \$MY_HOST_IP substrafront.chunantes.com >> /etc/hosts
+              echo \$MY_HOST_IP substrabac.owkin.xyz >> /etc/hosts
+              echo \$MY_HOST_IP substrafront.owkin.xyz >> /etc/hosts
+              echo \$MY_HOST_IP substrabac.chunantes.xyz >> /etc/hosts
+              echo \$MY_HOST_IP substrafront.chunantes.xyz >> /etc/hosts
               cd ../ && python3 populate.py
 
             """
