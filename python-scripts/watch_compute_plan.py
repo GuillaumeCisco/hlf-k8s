@@ -5,7 +5,7 @@ import sys
 import substra
 
 
-USER, PASSWORD = ('foo', 'p@$swr0d44')
+USER, PASSWORD = ('substra', 'p@$swr0d44')
 client = substra.Client()
 client.add_profile('owkin', USER, PASSWORD, 'http://substrabac.owkin.xyz:8000')
 client.login()
