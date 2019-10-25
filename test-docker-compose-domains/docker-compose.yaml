@@ -1,0 +1,12 @@
+services:
+    owkin:
+        container_name: hello.owkin.xyz
+        image: test-domain-owkin
+        ports:
+        - 8042:80
+    chunantes:
+        container_name: hello.chunantes.xyz
+        image: test-domain-chunantes
+        ports:
+        - 8043:80
+version: '2.3'
